@@ -1,0 +1,23 @@
+body{
+    background-image: url(./EIA1-WiSe19-20/Aufgabe_3/Station_8_Youtube/images/bg.png);
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    position: absolute;                                                              
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.video{
+    position: absolute;
+    z-index: 2;
+    top: 220px;
+    left: 488px;
+}
+.banderole{
+    position: relative;
+    top: 125px;
+    left: 830px;
+    z-index: 3;
+}
