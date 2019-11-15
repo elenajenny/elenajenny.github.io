@@ -1,0 +1,136 @@
+body{
+    background-image: url(./EIA_WiSe/images/bg.jpg)
+    } 
+/*Mobile Screen*/
+@media screen and (max-width: 640px) 
+{
+    div{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%)
+    }
+        
+    a:hover{
+        background-color: white;
+    }
+    .Fragebox{
+        top: -100px;
+    }
+    .Frage1{
+        color: white;
+        font-size: large;
+    }
+    .Telefon{
+        position: absolute;
+        top: -150px;
+        left: -260px;
+    }
+    .Chance{
+        position: absolute;
+        top: -100px;
+        left:-260px;
+    }
+    .Text{
+        color: white;
+    }
+    .Antwort1{
+        position: absolute;
+    }
+    .Antwort2{
+        position: absolute;
+        top: 50px;
+    }
+    .Antwort3{
+        position: absolute;
+        top: 100px;
+    }
+    .Antwort4{
+        position: absolute;
+        top: 150px;
+    }
+    .Antwort1:hover{
+        background-image: url(./EIA_WiSe/images/answer_over.png);
+    }
+    .Antwort2:hover{
+        background-image: url(./EIA_WiSe/images/answer_over.png);
+    }
+    .Antwort3:hover{
+        background-image: url(./EIA_WiSe/images/answer_over.png);
+    }
+    .Antwort4:hover{
+        background-image: url(./EIA_WiSe/images/answer_over.png);
+    }
+    
+}
+/*Desktop Screen*/
+@media screen and (min-width: 640px)
+{
+    div{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        color: darkblue;
+        font-size: xx-large;
+    }
+    a{
+        color:white;
+    }
+    .font{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+    a:hover{
+        background-color: white;
+    }
+    .Fragebox{
+        top: -100px;
+    }
+    .Frage1{
+        color: white;
+        font-size:large;
+    }
+    .Telefon{
+        position: absolute;
+        top: -150px;
+        left: -260px;
+    }
+    .Chance{
+        position: absolute;
+        top: -100px;
+        left:-260px;
+    }
+    .Text{
+        color: white;
+        font-size: medium;
+    }
+    .Antwort1{
+        position: absolute;
+    }
+    .Antwort2{
+        position: absolute;
+        top: 50px;
+    }
+    .Antwort3{
+        position: absolute;
+        top: 100px;
+    }
+    .Antwort4{
+        position: absolute;
+        top: 150px;
+    }
+    .Antwort1:hover{
+        background-image: url(./EIA_WiSe/images/answer_over.png);
+    }
+    .Antwort2:hover{
+        background-image: url(./EIA_WiSe/images/answer_over.png);
+    }
+    .Antwort3:hover{
+        background-image: url(./EIA_WiSe/images/answer_over.png);
+    }
+    .Antwort4:hover{
+        background-image: url(./EIA_WiSe/images/answer_over.png);
+    }
+}  
