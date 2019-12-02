@@ -1,0 +1,93 @@
+body{
+    background-color: #CAD5D5;
+}
+.grid-container{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid-container2{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.play{
+     position: absolute;
+     top: 165px;
+     left: 500px;
+}
+#kick{
+    border-style: none;
+    background: linear-gradient(0deg, rgba(255,178,178,1) 0%, rgba(239,0,0,1) 93%);
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+#snare{   
+    border-style: none;
+    background: linear-gradient(0deg, rgba(255,178,178,1) 0%, rgba(239,0,0,1) 93%);
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+#hihat{
+    border-style: none;
+    background: linear-gradient(0deg, rgba(255,178,178,1) 0%, rgba(239,0,0,1) 93%);
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+#ftone{
+    border-style:none;
+    background: linear-gradient(0deg, rgba(104,175,117,1) 0%, rgba(27,71,17,1) 100%);
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+#gtone{
+    border-style:none;
+    background: linear-gradient(0deg, rgba(104,175,117,1) 0%, rgba(27,71,17,1) 100%);
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+#atone{
+    border-style:none;
+    background: linear-gradient(0deg, rgba(104,175,117,1) 0%, rgba(27,71,17,1) 100%);
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+#ctone{
+    border-style:none;
+    background: linear-gradient(0deg, rgba(104,175,117,1) 0%, rgba(27,71,17,1) 100%);
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+#vocal1{
+    border-style: none;
+    background: linear-gradient(0deg, rgba(231,229,229,1) 0%, rgba(88,88,88,1) 100%);
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+#vocal2{
+    border-style: none;
+    background: linear-gradient(0deg, rgba(231,229,229,1) 0%, rgba(88,88,88,1) 100%);
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
