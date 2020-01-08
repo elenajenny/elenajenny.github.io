@@ -1,0 +1,41 @@
+body{
+    background-image:url(./EIA1-WiSe19-20/Aufgabe_3/Station_1_Positionierung/images/bg.png);
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    position: absolute;                                                              
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.übertext{
+    position: absolute;
+    color:white;
+    z-index: 3;
+    top: -150px;
+    left: -190px;
+    width: 300px;
+}
+.text{
+    position: absolute;
+    color: white;
+    font-size: large;
+    top: -10px;
+    left: -250px;
+    z-index: 3;
+    width: 300px ;
+}
+.pinguin{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    z-index: 3;
+}
+.busch{
+    position: absolute;
+    top: -250px;
+    left: -350px;
+    z-index: 3;
+}
+

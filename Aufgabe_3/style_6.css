@@ -1,0 +1,32 @@
+body{
+    background-image: url(./EIA1-WiSe19-20/Aufgabe_3/Station_6_Spaltenlayout/images/bg.png);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: white;
+}
+.container{
+    position: absolute;                                                              
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.spalten_1{
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    -webkit-column-rule-width: 10px;
+    position: absolute;
+    z-index: 2;
+    top: -150px;
+    left: -260px;
+}
+.spalten_2{
+    -webkit-column-count: 3;
+    -webkit-column-gap: 15px;
+    -webkit-column-rule-width: 10px;
+    position: absolute;
+    z-index: 2;
+    height: 150px;
+    top: 15px;
+    left: -260px;
+   }

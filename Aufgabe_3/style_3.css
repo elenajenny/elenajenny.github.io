@@ -1,0 +1,46 @@
+body{
+    background-image: url(./EIA1-WiSe19-20/Aufgabe_3/Station_3_Hover/images/bg.png);
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    position: absolute;                                                              
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.text{
+    position: relative;
+    left: -50px; 
+    top: 50px;
+    font-size: medium;
+    color: white;
+    z-index: 2;
+}
+.stern1{
+    position: relative;
+    top: 50px;
+    left: 0px;
+    z-index: 2;
+}
+.stern2{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    z-index: 2;
+}
+.stern3{
+    position: relative;
+    top: -40px;
+    left: 200px;
+    z-index: 2;
+}
+.stern4{
+position: relative;
+top: -10px;
+left: 300px;
+z-index: 2;
+}
+div>img:hover{
+    background-image: url(./EIA1-WiSe19-20/Aufgabe_3/Station_3_Hover/images/stern_hover.png);
+}
